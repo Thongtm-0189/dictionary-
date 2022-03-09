@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+::selection{
+    background-color: antiquewhite;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 30px;
+    background: rgb(214, 235, 255);
+}
+#wrap-input{
+    background-color: #fff;
+    position: relative;
+    border-left: 2px solid #ccc;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 3px rgb(218, 218, 218), -1px -1px 2px 3px rgb(186, 198, 248);
+}
+label{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#word{
+    border-radius: 10px;
+    height: 40px;
+    font-size: 18px;
+    padding: 0px 20px;
+    border: 0px;
+    background-color: transparent;
+}
+#word::placeholder{
+    color: #ccc;
+    font-weight: 100;
+    font-size: 16px;
+}
+#word:focus{
+    outline: none;
+}
+svg{
+    height: 20px;
+    width: 20px;
+}
+
+#title{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.part-of-speech{
+    font-size: 18px;
+}
+.definition{
+    font-size: 13px;
+    line-height: 16px;
+}
+.wrap-meaning{
+    margin: 15px;
+}
+.phonic{
+    color:rgb(102, 102, 102);
+}
